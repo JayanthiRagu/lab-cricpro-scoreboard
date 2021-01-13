@@ -1,16 +1,90 @@
 /* Type your code here */
+body{
+	background: url("./assets/background-image1.png");
+	height: 0.5fr;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Nunito Sans;
+	font-weight: 500;
+}
+.head{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-top:10px;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 60%;
+  }
 
+  tr {
+   border: 1px solid gray;
+	text-align: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+  }
+  tr:first-child
+  {
+	  background-color: orangered;
+  }
+  tr:first-child td:nth-child(7)
+  {
+	  width:50%;
+  }
+  tr:nth-child(2)
+  {
+	  background-color: rgb(218, 214, 214);
+  }
+  tr:nth-child(n+3)
+  {
+	  background-color:white;
+  }
+  td, th
+  {
+	  padding:7px;
+  }
+  tr:nth-child(n+2)
+	text-align:right;
+  }
+ 
+  .hiddenimg~img{
+	display: none;
+  }
+  
+  .hiddentxt ~ .hiddenimg{
+	display:none;
+  }
+  
+  .hiddentxt a {
+	color: rgb(20, 118, 163)124, 124, 124);
+	text-decoration: none;
+  }
+  
+  
+  .hiddentxt:hover ~ .hiddenimg {
+	display: block;
+	position: absolute;
+  }
+  
 
 /* change the font family and spacing as per your project font */
 .footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	display:flex;
+	flex-direction: row;
+    align-content: flex-start;
+	position: static;
+	margin-top: 10px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
+	font-style: normal;
     
 }
+
+  
